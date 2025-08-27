@@ -11,6 +11,7 @@ It includes:
 The project is designed to be **user-friendly**, with all key inputs defined in a single configuration file and a simple runner script to execute selected methods.
 
 ## Repository Structure
+```
 var_project/
 │
 ├── project_runner/
@@ -28,7 +29,7 @@ var_project/
 ├── README.md # Project documentation
 ├── requirements.txt # Required Python packages
 └── .gitignore # Ignored files for Git
-
+```
 ## Installation
 1. Clone the repository:
    ```bash
@@ -39,8 +40,8 @@ var_project/
 
 ## Usage
 1. Open project_runner/input_config.py and adjust:
-
-tickers = ['EXUS.DE', 'CNDX.L', 'EIMI.L', 'IGLN.L'] (use Yahoo Finance website for tickers)
+```python
+tickers = ['EXUS.DE', 'CNDX.L', 'EIMI.L', 'IGLN.L'] #(use Yahoo Finance website for tickers)
 weights = np.array([0.3, 0.3, 0.3, 0.1])
 period = '2y'
 conf_level = 0.05
@@ -49,16 +50,18 @@ num_simulations = 100000
 run_historical = True
 run_parametric = True
 run_monte_carlo = True
+```
 
 2. Run Analysis
 python project_runner/run_examples.py
 
-The script will:
+```The script will:
     - Fetch data
     - Calculate returns
     - Run selected VaR methods
     - Display results and plots
     - Perform backtesting (Kupiec Test)
+```
 
 ## License
 This project is licensed under the MIT License
