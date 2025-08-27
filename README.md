@@ -55,7 +55,8 @@ run_monte_carlo = True
 2. Run Analysis
 python project_runner/run_examples.py
 
-```The script will:
+```
+The script will:
     - Fetch data
     - Calculate returns
     - Run selected VaR methods
@@ -68,8 +69,9 @@ This project is licensed under the MIT License
 
 ## Requirements
 See requirements.txt for dependencies:
-
+```
 numpy
 scipy
 matplotlib
 yfinance
+```
