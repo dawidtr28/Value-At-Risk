@@ -1,2 +1,2 @@
 # Value-At-Risk
-ortfolio Value at Risk (VaR) Calculator – Python project for calculating and visualizing portfolio risk using multiple VaR methods (Historical, Parametric, Monte Carlo) with plotting and backtesting.
+Portfolio Value at Risk (VaR) Calculator – Python project for calculating and visualizing portfolio risk using multiple VaR methods (Historical, Parametric, Monte Carlo) with plotting and backtesting.
