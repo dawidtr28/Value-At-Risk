@@ -31,13 +31,6 @@ var_project/
 ├── requirements.txt # Required Python packages
 └── .gitignore # Ignored files for Git
 ```
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/var_project.git
-   cd var_project
-2. Install dependencies:
-   pip install -r requirements.txt
 
 ## Usage
 1. Open project_runner/input_config.py and adjust:
