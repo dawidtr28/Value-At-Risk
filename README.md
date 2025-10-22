@@ -55,7 +55,7 @@ The script will:
     - Calculate returns
     - Run selected VaR methods
     - Display results and plots
-    - Perform backtesting (Kupiec Test)
+    - Perform backtesting (Kupiec's Test, Christoffersen's Test)
 ```
 
 ## License
