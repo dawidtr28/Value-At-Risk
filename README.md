@@ -7,7 +7,7 @@ It includes:
 - Historical Simulation
 - Parametric VaR (t-distribution fitting)
 - Monte Carlo Simulation
-- Backtesting (Kupiec Test)
+- Backtesting (Kupiec's Test, Christoffersen's Test)
   
 The project is designed to be **user-friendly**, with all key inputs defined in a single configuration file and a simple runner script to execute selected methods.
 
